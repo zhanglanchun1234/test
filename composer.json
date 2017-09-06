@@ -14,7 +14,7 @@
     		"system\\":"system/"
     	},
     	"files":[
-    		"core/functions.php"
+    		"system/functions.php"
     	]
     }
 }
