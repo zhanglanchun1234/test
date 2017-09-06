@@ -4,5 +4,15 @@
     "type": "project",
     "license": "mit",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload":{
+    	"psr-4":{
+    		"app\\":"app/",
+    		"core\\":"core/",
+    		"system\\":"system/"
+    	},
+    	"files":[
+    		"system/functions.php"
+    	]
+    }
 }
